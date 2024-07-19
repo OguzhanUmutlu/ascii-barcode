@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-textarea {
+textarea, input[type="number"] {
     padding: 10px;
     margin: 10px;
     border: none;
@@ -17,4 +17,13 @@ textarea {
     width: 100%;
     height: 30vh;
     resize: none;
+}
+
+.unicode {
+    text-align: left;
+    margin-left: 1%;
+}
+
+#caesar {
+    height: auto;
 }
